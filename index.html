@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="max-w-[1200px] mx-auto">
+      <!-- nav section start -->
+      <nav>
+        <div class="container mx-auto my-5">
+            <div class="flex justify-between items-center text-white">
+                <div class="lg:hidden">
+                    <img class="w-8 h-8 ml-6" src="/Images/Frame (1).png" alt="">
+                </div>
+                <div class="flex justify-center items-center space-x-36">
+                <div>
+                    <h1 class="text-[#131318] text-4xl font-extrabold">Hockey<span class="text-[#FF4240] text-4xl font-extrabold">’</span>s</h1>
+                </div>
+                </div>
+                <div class="space-x-8 text-[#424247] hidden lg:flex">
+                    <a class="text-[#FF4240] font-bold" href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Pages</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="w-40 flex items-center space-x-4">
+                    <img class="w-5 h-5 mt-3 hidden lg:flex" src="./Images/Frame.png" alt="" srcset="">
+                    <button class="text-[#FFF] bg-[#FF4240] py-3 px-5 rounded-md font-bold">Get Ticket</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav section end -->
+
+    <!-- banner section start -->
+    <div class="container mx-auto">
+        <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full h-[100vh] bg-[url(./Images/1.png)] bg-no-repeat">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-8 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full bg-[url(./Images/1.png)] bg-no-repeat">
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-8 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+          </div>
+          <div class="w-[600px] bg-black pl-6 py-6 px-6 rounded-md mx-auto lg:-translate-y-44 lg:translate-x-64">
+            <h2 class="text-[#FFF] text-2xl font-bold py-2">Meet all the heroes from the field</h2>
+            <p class="text-[#FFF] text-[18px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          </div>
+    </div>
+    <!-- banner section end -->
+    </header>
+    <main class="max-w-[1200px] mx-auto">
+      <div class="py-6">
+        <h1 class="text-[#131318] text-center text-3xl font-extrabold">Professional Hockeys Club</h1>
+        <p class="text-center text-[16px] font-medium my-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+      <div class="flex flex-col lg:flex-row justify-around items-center">
+        <div class="p-2 text-center">
+          <div class="radial-progress text-[#FF4240] rotate-180 text-center" style="--value:87;" role="progressbar"><span class="text-[#131318] rotate-180 font-semibold text-2xl text-center p-2">87%</span></div>
+          <h3 class="txet-[#131318] text-2xl font-bold py-4">Prayer Facility</h3>
+          <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+        </div>
+        <div class="p-2 text-center">
+          <div class="radial-progress text-[#49D293] rotate-180 text-center" style="--value:95;" role="progressbar"><span class="text-[#131318] rotate-180 font-semibold text-2xl text-center p-2">95%</span></div>
+          <h3 class="txet-[#131318] text-2xl font-bold py-4">Experienced Coach</h3>
+          <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+        </div>
+        <div class="p-2 text-center">
+          <div class="radial-progress text-[#FFB546] rotate-180 text-center" style="--value:90;" role="progressbar"><span class="text-[#131318] rotate-180 font-semibold text-2xl text-center p-2">90%</span></div>
+          <h3 class="txet-[#131318] text-2xl font-bold py-4">Senior Player</h3>
+          <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+        </div>
+        <div class="p-2 text-center">
+          <div class="radial-progress text-[#4C8DF1] rotate-180 text-center" style="--value:80;" role="progressbar"><span class="text-[#131318] rotate-180 font-semibold text-2xl text-center p-2">80%</span></div>
+          <h3 class="txet-[#131318] text-2xl font-bold py-4">Training Ground</h3>
+          <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+        </div>
+      </div>
+      </div>
+    </main>
+</body>
+</html>
