@@ -43,20 +43,20 @@
     <!-- banner section start -->
     <div class="container mx-auto">
         <div class="carousel w-full">
-            <div id="slide1" class="carousel-item relative w-full h-[100vh] bg-[url(./Images/1.png)] bg-no-repeat">
+            <div id="slide1" class="carousel-item relative w-full h-[100vh] bg-[url(./Images/1.png)] bg-center bg-cover bg-no-repeat">
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-8 top-1/2">
                 <a href="#slide2" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
             </div> 
-            <div id="slide2" class="carousel-item relative w-full bg-[url(./Images/1.png)] bg-no-repeat">
+            <div id="slide2" class="carousel-item relative w-full bg-[url(./Images/1.png)] bg-center bg-cover bg-no-repeat">
               <div class="absolute flex justify-between transform -translate-y-1/2 left-8 right-5 top-1/2">
                 <a href="#slide1" class="btn btn-circle">❮</a> 
                 <a href="#slide1" class="btn btn-circle">❯</a>
               </div>
             </div> 
           </div>
-          <div class="w-[600px] bg-black pl-6 py-6 px-6 rounded-md mx-auto lg:-translate-y-56 lg:translate-x-60">
+          <div class="w-[600px] bg-black pl-6 py-6 px-6 mt-4 rounded-md mx-auto lg:-translate-y-56 lg:translate-x-60">
             <h2 class="text-[#FFF] text-2xl font-bold py-2">Meet all the heroes from the field</h2>
             <p class="text-[#FFF] text-[18px]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam <br> turpis placerat dolor. Purus urna in sit nullam proin. </p>
           </div>
@@ -508,8 +508,51 @@
   </div>
       </section>
 
-
       <!-- Get In Touch Section End -->
     </main>
+    <footer class="footer p-10 bg-black text-base-content mt-8 text-white">
+      <aside class="ml-16">
+          <h3 class="text-xl text-center font-bold">Get In Touch</h3>
+          <p class="opacity-50 fon-[16px]">Dit amet consectetur. Condimentum <br>
+              adipiscing aliquam turpis placerat dolor. Purus <br>
+              urna in sit nullam proin.</p>
+          <div class="flex gap-2 justify-items-center items-center">
+              <i class="ri-mail-line text-red-400 "></i>
+              <p class="opacity-70">hockeys@support.com</p>
+          </div>
+          <div class="flex gap-2 justify-items-center items-center ">
+              <i class="ri-phone-line text-red-400"></i>
+              <p class="opacity-70">(+62) 123-321-543</p>
+          </div>
+      </aside>
+      <div class="flex flex-col lg:flex-row ml-10 lg:justify-between space-x-20">
+        <div class="flex justify-center space-x-20 w-1/2 ml-14 mb-10">
+          <div>
+            <header class="text-xl font-bold">Company</header>
+            <a class="opacity-50">About us</a> <br>
+            <a class="opacity-50">Leadership</a> <br>
+            <a class="opacity-50">Careers</a>
+            <a class="opacity-50">News & Article</a>
+            <a class="opacity-50">Legal Notice</a>
+        </div>
+        <div>
+            <header class="text-xl font-bold">Support</header>
+            <p class="opacity-50">Help Center</p>
+            <p class="opacity-50">FAQy</p>
+            <p class="opacity-50">Ticket Support</p>
+            <p class="opacity-50">Contact Us</p>
+        </div>
+        </div>
+        <div class="mx-auto">
+            <header class="text-xl font-bold">Services</header>
+            <p class="opacity-50">Academy</p>
+            <p class="opacity-50">Group Lesson</p>
+            <p class="opacity-50">Private Lesson</p>
+            <p class="opacity-50">Hockeys for kids</p>
+            <p class="opacity-50">Hockeys for Adult</p>
+        </div>
+    </div>
+  </footer>
+
 </body>
 </html>
